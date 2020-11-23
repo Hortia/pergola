@@ -504,7 +504,7 @@ input[type="radio"]#play:checked ~ div#slides {
     font-size: 1.5rem;
     margin-right: 1rem;
 }
-@media all and (max-width: 1100px)
+@media all and (max-width: 1000px)
 {
     .menu li
     {
