@@ -52,6 +52,20 @@ table
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+@font-face
+{
+    font-family: 'kiona';
+    src: url(./Kiona-Regular.ttf) format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'roboto';
+    src: url(./Roboto-Regular.ttf) format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 body
 {
     display: flex;
@@ -110,7 +124,7 @@ body
 }
 .menu li
 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'kiona', Georgia, Times, 'Times New Roman', serif;
     font-size: 2rem;
     justify-content: space-around;
     margin-left: 2rem;
@@ -273,4 +287,211 @@ input[type="radio"]#play:checked ~ div#slides {
     70%, 95% {
         left: -200vw; /*3ème image*/
     }
+}
+.features h1
+{
+    font-size: 4rem;
+    font-family: 'kiona', Georgia, Times, 'Times New Roman', serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.features p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.features div
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 11rem;
+    margin-right: 11rem;
+    margin-bottom: 5rem;
+}
+#left
+{
+    margin-bottom: 1.5rem;
+}
+#left img
+{
+    margin-left: 2rem;
+    max-width: 500px;
+}
+#left p
+{
+    margin-left: 3rem;
+    max-width: 400px;
+    margin-top: 10rem;
+    border: 3px #844b1c solid;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    height: 150px;
+}
+#right img
+{
+    margin-right: 2rem;
+    max-width: 500px;
+}
+#right p
+{
+    margin-left: 2rem;
+    max-width: 400px;
+    margin-top: 6rem;
+    margin-right: 7rem;
+    border: 3px #844b1c solid;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.avisclients ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.avisclients li
+{
+    font-size: 3rem;
+}
+.avis
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.avis1
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.avis1 h3
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.avis2
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.avis2 h3
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.avisclients h3
+{
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+}
+.container
+{
+    display: block;
+    width: 300px;
+    height: 300px;
+    background-color:#e5d7cd ;
+}
+.container p
+{
+    padding: 1rem 1rem 1rem 1rem;
+}
+.satisfaction
+{
+    background-image: url("./bannieresatis.png");
+    height: 350px;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.satisfactiontitle
+{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'roboto',sans-serif;
+}
+#calltoaction button
+{
+    margin-left: 3rem;
+    width: 500px;
+    height: 100px;
+    font-size: 2rem;
+    background-color:  #844b1c;
+    border: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9rem;
+}
+#calltoaction button a
+{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#calltoaction button a:hover
+{
+    color: black;
+}
+.services ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+.services li
+{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.services li i
+{
+    font-size: 5rem;
+    text-align: center;
+}
+.footer
+{
+    padding-top: 1rem;
+    background-color: #b7d4e5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+}
+.footer h5
+{
+    font-size: 1.1rem;
+}
+.footer ul
+{
+    margin-top: 1rem;
+}
+.footer li
+{
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+}
+.socialsmedia ul
+{
+    display: flex;
+    flex-direction: row;
+}
+.socialsmedia li
+{
+    font-size: 1.5rem;
+    margin-right: 1rem;
 }
