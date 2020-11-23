@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
- <head >
+ <head>
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, user-scalable=yes"/>
-     <link rel="stylesheet" href="./index.css">
+     <link rel="stylesheet" href="./style.css">
      <script src="https://kit.fontawesome.com/dd3e5a0d8d.js" crossorigin="anonymous"></script>
     <title>Pergola</title>
     <meta name="title" content="Template pergola">
@@ -18,21 +18,47 @@
              <li><i class="fab fa-instagram"></i></li>
              <li><i class="fab fa-linkedin"></i></li>
          </ul>
+         <div class="logo">
          <img src="./testlogo.png" alt="logo">
+        </div>
          <nav>
-             <ul>
-                 <h2>Our products</h2>
-                 <h2>Contact us</h2>
-                 <h2>About us</h2>
+             <ul class="menu">
+                 <li><h2>Our products</h2></li>
+                 <li><h2>Contact us</h2></li>
+                 <li><h2>About us</h2></li>
              </ul>
          </nav>
      </section>
      <section class="carroussel">
-         <ul>
-             <li></li>
-             <li></li>
-             <li></li>
-         </ul>
+        <div id="slider">
+            <input type="radio" id="show_slide1" name="slider_commands">
+            <input type="radio" id="show_slide2" name="slider_commands">
+            <input type="radio" id="show_slide3" name="slider_commands">
+            <input type="radio" id="play_slider" name="slider_commands">
+          
+            <div id="slides">
+              <figure id="slide1">
+                <img src="./imagecarroussel1.jpg">
+                <figcaption> </figcaption>
+              </figure>
+              <figure id="slide2">
+                <img src="./imagecarroussel2.jpg">
+                <figcaption> </figcaption>
+              </figure>
+              <figure id="slide3">
+                <img src="./imagecarroussel3.jpg">
+                <figcaption> </figcaption>
+              </figure>
+            </div>
+            <nav>
+              <ul class="dots_commands">
+                <li><label for="show_slide1">Slide 1</label></li>
+                <li><label for="show_slide2">Slide 2</label></li>
+                <li><label for="show_slide3">Slide 3</label></li>
+              </ul>
+              <label for="play_slider" aria-label="Play" id="play" title="Play">Play</label>
+            </nav>
+          </div>
      </section>
      <section class="features">
          <h1>Features</h1>
