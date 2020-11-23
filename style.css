@@ -132,6 +132,16 @@ body
     margin-top: 0.5rem;
     margin-bottom: 1rem;
 }
+.menu li a
+{
+    text-decoration: none;
+    color: black;
+}
+.menu li a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
 .carroussel
 {
     position: relative;
