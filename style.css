@@ -354,6 +354,7 @@ input[type="radio"]#play:checked ~ div#slides {
     padding-top: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    height: 150px;
 }
 .avisclients ul
 {
@@ -504,4 +505,173 @@ input[type="radio"]#play:checked ~ div#slides {
 {
     font-size: 1.5rem;
     margin-right: 1rem;
+}
+@media all and (max-width: 1100px)
+{
+    .menu li
+    {
+        font-size: 1rem;
+    }
+    #slides figure img {
+        width: 90%;
+    }
+    .features div
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5rem;
+    }
+    #left img
+    {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px;
+    }
+    #left p
+    {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+    }
+    #right img
+    {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 400px;
+    }
+    #right p
+    {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px;
+        margin-top: 1rem;
+        padding-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    .avis
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .avis1
+    {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+    }
+    .avis2
+   {
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .satisfaction
+    {
+        background: white;
+    }
+    .satisfactiontitle
+    {
+        font-size: 2rem;
+    }
+    #calltoaction button 
+    {
+        max-width: 400px;
+        font-size: 1.5rem;
+    }
+}
+@media all and (max-width: 500px)
+{
+    .menu li
+    {
+        font-size: 0.8rem;
+    }
+    #slides figure img {
+        width: 90%;
+    }
+    .features div
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5rem;
+    }
+    #left img
+    {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+    }
+    #left p
+    {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+    }
+    #right img
+    {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 300px;
+    }
+    #right p
+    {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+        margin-top: 1rem;
+        padding-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    .avis
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .avis1
+    {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+    }
+    .avis2
+   {
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .satisfaction
+    {
+        background: white;
+    }
+    .satisfactiontitle
+    {
+        font-size: 2rem;
+    }
+    #calltoaction button 
+    {
+        max-width: 300px;
+        font-size: 1rem;
+    }
+    .services li h4
+    {
+        font-size: 1rem;
+    }
+    .services i
+    {
+        font-size: 1.5rem;
+    }
+    .footer
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .foot
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 }
