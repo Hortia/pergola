@@ -55,14 +55,14 @@ table
 @font-face
 {
     font-family: 'kiona';
-    src: url(./Kiona-Regular.ttf) format(ttf);
+    src: url(./Kiona-Regular.ttf) format(.ttf);
     font-weight: normal;
     font-style: normal;
 }
 @font-face
 {
     font-family: 'roboto';
-    src: url(./Roboto-Regular.ttf) format(ttf);
+    src: url(./Roboto-Regular.ttf) format(.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -73,7 +73,6 @@ body
 }
 .header
 {
-    max-width: auto;
     max-height: 350px;
     background-image: url("./banniere.png");
     margin-bottom: 3rem;
@@ -146,7 +145,6 @@ body
 {
     position: relative;
     max-width: auto;
-    max-height: auto;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
@@ -178,7 +176,6 @@ body
 #slides figure {
     display: inline-block;
     width: 100vw;
-    max-height: auto;
     margin: 0;
 }
 
@@ -439,21 +436,22 @@ input[type="radio"]#play:checked ~ div#slides {
     height: 100px;
     font-size: 2rem;
     background-color:  #844b1c;
+    color: white;
+    text-transform: uppercase;
     border: 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 9rem;
 }
-#calltoaction button a
-{
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-#calltoaction button a:hover
+#calltoaction button:hover
 {
     color: black;
+    background-color: white;
+}
+#calltoaction 
+{
+    text-decoration: none;
 }
 .services ul
 {
